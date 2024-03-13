@@ -17,7 +17,7 @@ function Header() {
                             <NavLink to="/about">About Us</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/product">Products</NavLink>
+                            <NavLink to="/products">Products</NavLink>
                         </li>
                         <li>
                             <NavLink to="/contact">Contact Us</NavLink>
@@ -26,7 +26,7 @@ function Header() {
                     <div>
 
 
-                        < NavLink to="/login" className="fas fa-user-alt icon"></NavLink>
+                        < NavLink to="/profile" className="fas fa-user-alt icon"></NavLink>
                         {/* <a NavLink to="./product-card.html" className="fa fa-shopping-bag icon"></a> */}
 
                     </div>

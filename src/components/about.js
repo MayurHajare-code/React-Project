@@ -13,7 +13,7 @@ function About() {
     <div id="about-us">
         <h4 class="about-h4-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus omnis incidunt ducimus
             officiis totam architecto</h4>
-        <img src="/images/Contact.jpg" alt=""/>
+        <img src="/assets/images/Contact.jpg" alt=""/>
         <div class="about-detail-content">
             <div id="left-content">
                 <h4 class="h4-title">Our Mission</h4>

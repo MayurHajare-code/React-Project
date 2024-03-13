@@ -9,8 +9,10 @@ import Home from './components/home';
 import About from './components/about';
 import Contact from './components/contact'
 import NoMatch from './components/noMatch';
-import Product from './components/product';
 import Login from './components/login';
+import Register from './components/register';
+import ProductDetail from './components/productDetail';
+import AllProducts from './components/allProducts';
 
 function App() {
   return (
@@ -19,9 +21,11 @@ function App() {
       <Routes>
         <Route path="/home" element={<Home/>}></Route>
         <Route path="/about" element={<About/>}></Route>
-        <Route path="/product" element={<Product/>}></Route>
+        <Route path="/products" element={<AllProducts/>}></Route>
+        {/* <Route path="/product/:id" element={<ProductDetail/>}></Route> */}
         <Route path="/contact" element={<Contact/>}></Route>
-        <Route path="/login" element={<Login/>}></Route>
+        <Route path="/" element={<Login/>}></Route>
+        <Route path="/register" element={<Register/>}></Route>
         <Route path="*" element={<NoMatch/>}></Route>
       </Routes>
      <Footer/>
